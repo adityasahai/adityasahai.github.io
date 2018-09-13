@@ -1105,7 +1105,7 @@
 
 	b, strong {
 		font-weight: 600;
-		color: #3e3e3e;
+		color: #3da5cf;
 	}
 
 	i, em {
@@ -1131,7 +1131,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #3e3e3e;
+		color: #fff;
 	}
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -1161,7 +1161,7 @@
 
 	hr {
 		border: 0;
-		border-top: solid 1px #444;
+		border-top: solid 1px #303030;
 		border-top-color: rgba(0, 0, 0, 0.35);
 		box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.1);
 		height: 1px;
@@ -1170,6 +1170,10 @@
 
 	p, ul, ol, dl, table {
 		margin-bottom: 2em;
+	}
+
+	p {
+		color: #fff;
 	}
 
 /* Form */
@@ -1379,7 +1383,7 @@
 		input[type="reset"].alt,
 		button.alt,
 		.button.alt {
-			background-color: #444;
+			background-color: #303030;
 			box-shadow: inset 0px 0px 0px 1px #242424, inset 0px 2px 1px 0px rgba(255, 255, 255, 0.2);
 		}
 
@@ -1445,7 +1449,7 @@
 					-webkit-transition: background-color .2s ease-in-out;
 					-ms-transition: background-color .2s ease-in-out;
 					transition: background-color .2s ease-in-out;
-					background-color: #444;
+					background-color: #303030;
 					border-radius: 6px;
 					box-shadow: inset 0px 0px 0px 1px #282828, inset 0px 2px 1px 0px rgba(255, 255, 255, 0.1);
 					color: #2E2E2E !important;
@@ -1553,7 +1557,7 @@
 /* Box */
 
 	.box {
-		background: #fff;
+		background: #303030;
 		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
 		text-align: center;
 	}
@@ -1581,7 +1585,7 @@
 		}
 
 		.icon.featured {
-			color: #EA8A95;
+			color: #3b9ec6;
 			display: block;
 			margin: 0 0 1.5em 0;
 			cursor: default;
@@ -1603,13 +1607,14 @@
 		}
 
 		.wrapper.style1 {
-			background-image: none;
-			background-color: #fff;
+			background-image: url(./images/header.png);
+			background-position: center;
+			background-size: cover;
 		}
 
 		.wrapper.style2 {
-			background-color: #fafafa;
-			text-shadow: 1px 1px 0px #fff;
+			background-color: #3b9ec6;
+			/* text-shadow: 1px 1px 0px #fff; */
 		}
 
 		.wrapper.style3 {
